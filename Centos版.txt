@@ -4,7 +4,7 @@ wget https://static.adguard.com/adguardhome/beta/AdGuardHome_linux_amd64.tar.gz
 
 tar -zvxf AdGuardHome_linux_amd64.tar.gz
 
-cd AdguardHome
+cd AdGuardHome
 
 ./AdGuardHome -s install
 
