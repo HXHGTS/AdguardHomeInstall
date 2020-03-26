@@ -1,0 +1,19 @@
+yum install wget -y
+
+wget https://static.adguard.com/adguardhome/beta/AdGuardHome_linux_amd64.tar.gz
+
+tar -zvxf AdGuardHome_linux_amd64.tar.gz
+
+cd AdguardHome
+
+./AdGuardHome -s install
+
+启动：
+systemctl start AdGuardHome
+
+重启：
+systemctl restart AdGuardHome
+
+关闭：
+systemctl stop AdGuardHome
+
