@@ -27,3 +27,5 @@
 [/static.addtoany.com/]8.8.8.8
 [/animeone.me/]8.8.8.8
 [/anime1.me/]8.8.8.8
+[/twitch.tv/]8.8.8.8
+[/twitchcdn.net/]8.8.8.8
