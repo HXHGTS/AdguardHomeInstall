@@ -4,3 +4,36 @@
 ||tz.obboob.cn^
 ||c.amazon-adsystem.com^
 ||www.googletagservices.com^
+||google-analytics.com^
+||www-google-analytics.l.google.com^
+||js.kiwihk.net^
+||tz.obboob.cn^
+||c.amazon-adsystem.com^
+||www.googletagservices.com^
+151.101.78.167 www.twitch.tv
+151.101.78.167 twitch.tv
+151.101.78.167 m.twitch.tv
+54.192.173.233 static.twitchcdn.net
+151.101.230.167 gql.twitch.tv
+13.224.143.112 cdn.branch.io
+151.101.230.214 api.twitch.tv
+23.77.13.84 cvp.twitch.tv
+52.41.249.78 pubsub-edge.twitch.tv
+52.10.152.252 irc-ws.chat.twitch.tv
+13.33.174.53 supervisor.ext-twitch.tv
+13.249.146.14 extensions-discovery-images.twitch.tv
+35.160.172.35 client-event-reporter.twitch.tv
+151.101.230.214 static-cdn.jtvnw.net
+13.225.176.64 panels-images.twitch.tv
+99.84.143.102 extension-files.twitch.tv
+34.216.60.197 countess.twitch.tv
+52.25.21.158 passport.twitch.tv
+13.249.146.95 app.link
+151.101.78.167 polyfill.twitchsvc.net
+99.84.55.102 clips-media-assets2.twitch.tv
+99.86.199.96 cdn-gl.imrworldwide.com
+54.192.151.129 vod-secure.twitch.tv
+151.101.110.214 s.jtvnw.net
+13.32.60.208 m.media-amazon.com
+151.101.78.214 static-cdn.jtvnw.net
+99.84.130.150 d2nvs31859zcd8.cloudfront.net
