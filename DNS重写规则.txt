@@ -1,11 +1,8 @@
 fonts.googleapis.com
 fonts.lug.ustc.edu.cn
 
-fonts.gstatic.com
-fonts.gstatic.cn
-
-www.gstatic.com
-www.gstatic.cn
+*.gstatic.com
+*.gstatic.cn
 
 themes.googleusercontent.com
 google-themes.lug.ustc.edu.cn
@@ -15,6 +12,9 @@ sdn.geekzu.org
 
 *.gravatar.com
 fdn.geekzu.org
+
+translate.google.com
+translate.google.cn
 
 blizzard.gcdn.cloudn.co.kr
 blizzard-gcdn.leigod.com
