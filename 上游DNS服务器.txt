@@ -1,5 +1,8 @@
 168.126.63.1
 168.126.63.2
+[/google.com/]tls://dns.google
+[/googlevideo.com/]tls://dns.google
+[/youtube.com/]tls://dns.google
 [/yandex.ru/]77.88.8.8
 [/yandex.com/]77.88.8.8
 [/yandex.net/]77.88.8.8
