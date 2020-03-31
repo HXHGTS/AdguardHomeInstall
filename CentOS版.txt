@@ -17,3 +17,6 @@ systemctl restart AdGuardHome
 关闭：
 systemctl stop AdGuardHome
 
+安装nslookup：
+yum install -y bind-utils
+
