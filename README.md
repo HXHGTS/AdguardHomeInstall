@@ -5,6 +5,8 @@ Windows版下载地址64位：https://static.adguard.com/adguardhome/beta/AdGuar
 
 Windows版下载地址32位：https://static.adguard.com/adguardhome/beta/AdGuardHome_Windows_386.zip
 
+Linux版64位：https://static.adguard.com/adguardhome/beta/AdGuardHome_linux_amd64.tar.gz
+
 Linux版32位：https://static.adguard.com/adguardhome/beta/AdGuardHome_linux_386.tar.gz
 
 MacOS版：https://static.adguard.com/adguardhome/beta/AdGuardHome_MacOS.zip
