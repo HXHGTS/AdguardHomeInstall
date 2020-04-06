@@ -15,12 +15,3 @@ fdn.geekzu.org
 
 translate.google.com
 translate.google.cn
-
-blizzard.gcdn.cloudn.co.kr
-blizzard-gcdn.leigod.com
-
-uplaypc-s-ubisoft.cdn.ubi.com
-uplaypc-s-ubisoft-cdn.leigod.com
-
-level3.blizzard.com
-blizzard-level3.leigod.com
