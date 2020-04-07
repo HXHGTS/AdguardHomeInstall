@@ -5,8 +5,6 @@ Windows版下载地址64位：https://static.adguard.com/adguardhome/beta/AdGuar
 
 备用下载：https://www.lanzous.com/iamrqch
 
-Windows快速搭建：https://www.lanzous.com/ib2t69c
-
 Windows版下载地址32位：https://static.adguard.com/adguardhome/beta/AdGuardHome_Windows_386.zip
 
 Linux版64位：https://static.adguard.com/adguardhome/beta/AdGuardHome_linux_amd64.tar.gz
