@@ -1,4 +1,4 @@
-tls://dns.adguard.com
+tls://dns.google
 [/baidu.com/]100.100.2.136
 [/bdstatic.com/]100.100.2.136
 [/bilibili.com/]100.100.2.136
