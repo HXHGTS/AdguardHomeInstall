@@ -1,3 +1,4 @@
+||pizzaseo.com^
 ||google-analytics.com^
 ||www-google-analytics.l.google.com^
 ||js.kiwihk.net^
