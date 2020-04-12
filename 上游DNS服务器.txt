@@ -10,7 +10,7 @@
 [/baidupcs.com/]114.114.114.114
 [/bdstatic.com/]114.114.114.114
 [/bilibili.com/]114.114.114.114
-[/bilibilivideo.com/]114.114.114.114
+[/bilivideo.com/]114.114.114.114
 [/hdslb.com/]114.114.114.114
 [/qq.com/]114.114.114.114
 [/douyu.com/]114.114.114.114
