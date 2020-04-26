@@ -1,4 +1,4 @@
-# AdguardHomeSet
+# AdguardHomeInstall
 
 在CentOS 7操作系统上搭建dns服务器
 
