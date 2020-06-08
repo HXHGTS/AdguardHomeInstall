@@ -20,3 +20,7 @@ systemctl stop AdGuardHome
 安装nslookup：
 yum install -y bind-utils
 
+卸载：
+systemctl list-unit-files |   grep enable
+
+systemctl disable AdGuardHome.service
