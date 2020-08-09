@@ -1,7 +1,7 @@
 ```
 ## 安装
 ```
-yum install wget -y && wget https://static.adguard.com/adguardhome/beta/AdGuardHome_linux_amd64.tar.gz && tar -zvxf AdGuardHome_linux_amd64.tar.gz && cd AdGuardHome && ./AdGuardHome -s install
+yum install wget -y && cd /root && sudo wget https://static.adguard.com/adguardhome/beta/AdGuardHome_linux_amd64.tar.gz && sudo tar -zvxf AdGuardHome_linux_amd64.tar.gz && sudo rm -rf AdGuardHome_linux_amd64.tar.gz && cd AdGuardHome && sudo ./AdGuardHome -s install
 ```
 ## 启动：
 ```
