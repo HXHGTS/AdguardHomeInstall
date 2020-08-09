@@ -1,15 +1,7 @@
 ```
 ## 安装
 ```
-yum install wget -y
-
-wget https://static.adguard.com/adguardhome/beta/AdGuardHome_linux_amd64.tar.gz
-
-tar -zvxf AdGuardHome_linux_amd64.tar.gz
-
-cd AdGuardHome
-
-./AdGuardHome -s install
+yum install wget -y && wget https://static.adguard.com/adguardhome/beta/AdGuardHome_linux_amd64.tar.gz && tar -zvxf AdGuardHome_linux_amd64.tar.gz && cd AdGuardHome && ./AdGuardHome -s install
 ```
 ## 启动：
 ```
@@ -29,7 +21,5 @@ yum install -y bind-utils
 ```
 ## 卸载：
 ```
-systemctl list-unit-files |   grep enable
-
-systemctl disable AdGuardHome.service
+systemctl list-unit-files | grep enable && systemctl disable AdGuardHome.service
 ```
