@@ -21,5 +21,5 @@ yum install -y bind-utils
 ```
 ## 卸载：
 ```
-systemctl list-unit-files | grep enable && systemctl disable AdGuardHome.service
+systemctl list-unit-files | grep enable && systemctl disable AdGuardHome.service && cd /root && rm -rf AdGuardHome
 ```
