@@ -27,6 +27,6 @@ DNS地址：<服务器ip地址>:53
 
 ### 卸载:
 ```
-wget https://github.com/HXHGTS/AdguardHomeInstall/raw/master/uninstall.sh -O install.sh && sudo bash uninstall.sh
+wget https://github.com/HXHGTS/AdguardHomeInstall/raw/master/uninstall.sh -O uninstall.sh && sudo bash uninstall.sh
 ```
 
