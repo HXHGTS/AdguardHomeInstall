@@ -24,3 +24,9 @@ yum install -y wget && wget https://github.com/HXHGTS/AdguardHomeInstall/raw/mas
 DNS地址：<服务器ip地址>:53
 
 上游DNS地址: tls://8.8.8.8 tls://8.8.4.4
+
+### 卸载:
+```
+wget https://github.com/HXHGTS/AdguardHomeInstall/raw/master/uninstall.sh -O install.sh && sudo bash uninstall.sh
+```
+
