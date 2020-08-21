@@ -10,7 +10,7 @@
 
 ### 一句话执行安装:
 ```
-yum install -y wget && wget https://github.com/HXHGTS/AdguardHomeInstall/raw/master/install.sh -O install.sh && sudo bash install.sh
+yum install -y wget && echo "151.101.108.133 raw.githubusercontent.com" >> /etc/hosts && wget https://github.com/HXHGTS/AdguardHomeInstall/raw/master/install.sh -O install.sh && sudo bash install.sh
 ```
 
 ### 默认参数:
