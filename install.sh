@@ -12,7 +12,7 @@ tar -zvxf AdGuardHome_linux_amd64.tar.gz
 
 rm -rf AdGuardHome_linux_amd64.tar.gz 
 
-cd AdGuardHome && sudo ./AdGuardHome -s install
+cd AdGuardHome && rm -rf LICENSE.txt && rm -rf README.md && sudo ./AdGuardHome -s install
 
 echo "正在下载AdGuardHome配置文件. . ."
 
