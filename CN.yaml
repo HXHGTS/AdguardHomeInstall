@@ -28,11 +28,12 @@ dns:
   ratelimit_whitelist: []
   refuse_any: true
   upstream_dns:
-  - tls://8.8.8.8
-  - tls://8.8.4.4
+  - 101.6.6.6:5353
+  - 202.141.162.123:5353
+  - 208.67.222.222:5353
   bootstrap_dns:
-  - 8.8.8.8
-  - 8.8.4.4
+  - 119.29.29.29
+  - 182.254.116.116
   all_servers: false
   fastest_addr: false
   allowed_clients: []
