@@ -10,7 +10,7 @@
 
 ### 一句话执行安装:
 ```
-yum install -y wget && echo "151.101.108.133 raw.githubusercontent.com" > /etc/hosts && wget https://github.com/HXHGTS/AdguardHomeInstall/raw/master/install.sh -O install.sh && sudo bash install.sh
+yum install -y wget && echo "151.101.108.133 raw.githubusercontent.com" > /etc/hosts && wget https://github.com/HXHGTS/AdguardHomeInstall/raw/master/CN.sh -O install.sh && sudo bash install.sh
 ```
 
 ### 默认参数:
@@ -23,7 +23,7 @@ yum install -y wget && echo "151.101.108.133 raw.githubusercontent.com" > /etc/h
 
 DNS地址：<服务器ip地址>:53
 
-上游DNS地址: tls://8.8.8.8 tls://8.8.4.4
+上游DNS地址: 清华大学TUNA666 中科大LUG 思科OpenDNS
 
 ### 卸载:
 ```
