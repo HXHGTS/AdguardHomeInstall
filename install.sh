@@ -1,16 +1,20 @@
 #!/bin/sh
 
+systemctl stop AdGuardhome && systemctl disable AdGuardhome
+
+rm -rf /root/AdGuardHome
+
 clear
 
 echo "正在下载AdGuardHome DNS服务器. . ."
 
-wget https://static.adguard.com/adguardhome/beta/AdGuardHome_linux_amd64.tar.gz
+wget https://static.adguard.com/adguardhome/beta/AdGuardHome_linux_amd64.tar.gz -O /root/AdGuardHome_linux_amd64.tar.gz
 
 echo "正在安装AdGuardHome DNS服务器. . ."
 
-tar -zvxf AdGuardHome_linux_amd64.tar.gz 
+tar -zvxf AdGuardHome_linux_amd64.tar.gz
 
-rm -rf AdGuardHome_linux_amd64.tar.gz 
+rm -rf AdGuardHome_linux_amd64.tar.gz
 
 cd /root/AdGuardHome && rm -rf LICENSE.txt && rm -rf README.md && sudo ./AdGuardHome -s install
 
@@ -22,16 +26,4 @@ systemctl restart AdGuardHome
 
 clear
 
-echo "--------------------------------------------"
-
-echo "WebUI: http://<服务器ip地址>"
-
-echo "用户名: root"
-
-echo "密码: root"
-
-echo "DNS: <服务器ip地址>"
-
-echo "--------------------------------------------"
-
-echo "DNS服务器已安装，防火墙注意放行tcp53 udp53端口！"
+echo "DNS服务器已安装！"
