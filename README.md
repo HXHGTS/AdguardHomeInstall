@@ -23,7 +23,7 @@ yum install -y wget && echo "151.101.108.133 raw.githubusercontent.com" > /etc/h
 
 DNS地址：<服务器ip地址>:53
 
-上游DNS地址: 清华大学TUNA666 中科大LUG 思科OpenDNS
+上游DNS地址: 清华大学TUNA666 中科大LUG
 
 ### 卸载:
 ```
