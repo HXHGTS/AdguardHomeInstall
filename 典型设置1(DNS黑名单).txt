@@ -1,0 +1,146 @@
+bind_host: 0.0.0.0
+bind_port: 80
+users:
+- name: root
+  password: $2a$10$pqKBYxDRyONAmcogriocYutLiaPANfJMJRVLF5gd2xun2Ht7CBqlK
+http_proxy: ""
+language: ""
+rlimit_nofile: 0
+debug_pprof: false
+web_session_ttl: 720
+dns:
+  bind_host: 0.0.0.0
+  port: 53
+  statistics_interval: 1
+  querylog_enabled: true
+  querylog_file_enabled: true
+  querylog_interval: 90
+  querylog_size_memory: 1000
+  anonymize_client_ip: false
+  protection_enabled: true
+  blocking_mode: default
+  blocking_ipv4: ""
+  blocking_ipv6: ""
+  blocked_response_ttl: 10
+  parental_block_host: family-block.dns.adguard.com
+  safebrowsing_block_host: standard-block.dns.adguard.com
+  ratelimit: 0
+  ratelimit_whitelist: []
+  refuse_any: true
+  upstream_dns:
+  - 119.29.29.29
+  - 182.254.116.116
+  - '[/expressvpn.com/]101.6.6.6:5353'
+  - '[/nordvpn.com/]101.6.6.6:5353'
+  - '[/google.com/]101.6.6.6:5353'
+  - '[/googlevideo.com/]101.6.6.6:5353'
+  - '[/youtube.com/]101.6.6.6:5353'
+  - '[/facebook.com/]101.6.6.6:5353'
+  - '[/facebook.net/]101.6.6.6:5353'
+  - '[/twitter.com/]101.6.6.6:5353'
+  - '[/twitch.tv/]101.6.6.6:5353'
+  - '[/twitchcdn.net/]101.6.6.6:5353'
+  - '[/hls.ttvnw.net/]101.6.6.6:5353'
+  - '[/wikipedia.org/]101.6.6.6:5353'
+  - '[/nytimes.com/]101.6.6.6:5353'
+  - '[/fastlycdn.net/]101.6.6.6:5353'
+  - '[/steamcommunity.com/]101.6.6.6:5353'
+  - '[/ubi.com/]101.6.6.6:5353'
+  - '[/ubisoft.com/]101.6.6.6:5353'
+  - '[/player.prod.r6.ubi.com/]106.6.6.6:5353'
+  - '[/r6statuspc.azureedge.net/]106.6.6.6:5353'
+  - '[/r6pcaddons.azureedge.net/]106.6.6.6:5353'
+  - '[/msr-public-ubiservices.ubi.com/]106.6.6.6:5353'
+  - '[/api-discovery.live01.pc-live.r6.ubi.com/]106.6.6.6:5353'
+  - '[/api-configuration-live01.live01.pc-live.r6.ubi.com/]106.6.6.6:5353'
+  - '[/r6logstorage05.blob.core.windows.net/]106.6.6.6:5353'
+  - '[/public-ubiservices.ubi.com/]106.6.6.6:5353'
+  - '[/public-ws-ubiservices.ubi.com/]106.6.6.6:5353'
+  - '[/msr-public-ubiservices.ubi.com/]106.6.6.6:5353'
+  - '[/mercury.ubi.com/]106.6.6.6:5353'
+  bootstrap_dns:
+  - 119.29.29.29
+  - 182.254.116.116
+  all_servers: false
+  fastest_addr: false
+  allowed_clients: []
+  disallowed_clients: []
+  blocked_hosts: []
+  cache_size: 4194304
+  cache_ttl_min: 0
+  cache_ttl_max: 0
+  bogus_nxdomain: []
+  aaaa_disabled: true
+  enable_dnssec: false
+  edns_client_subnet: true
+  filtering_enabled: true
+  filters_update_interval: 24
+  parental_enabled: false
+  safesearch_enabled: false
+  safebrowsing_enabled: false
+  safebrowsing_cache_size: 1048576
+  safesearch_cache_size: 1048576
+  parental_cache_size: 1048576
+  cache_time: 30
+  rewrites:
+  - domain: '*.workers.dev'
+    answer: 1.0.0.1
+  - domain: '*.s3.amazonaws.com'
+    answer: s3.amazonaws.com
+  - domain: justmysocks.net
+    answer: 1.0.0.1
+  - domain: justmysocks2.net
+    answer: 1.0.0.1
+  - domain: dogfight360.com
+    answer: 1.0.0.1
+  - domain: net.snnu.edu.cn
+    answer: 202.117.144.205
+  - domain: raw.githubusercontent.com
+    answer: github.map.fastly.net
+  blocked_services: []
+tls:
+  enabled: false
+  server_name: ""
+  force_https: false
+  port_https: 443
+  port_dns_over_tls: 853
+  allow_unencrypted_doh: false
+  strict_sni_check: false
+  certificate_chain: ""
+  private_key: ""
+  certificate_path: ""
+  private_key_path: ""
+filters:
+- enabled: false
+  url: https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
+  name: AdGuard Simplified Domain Names filter
+  id: 1
+- enabled: false
+  url: https://adaway.org/hosts.txt
+  name: AdAway
+  id: 2
+- enabled: false
+  url: https://www.malwaredomainlist.com/hostslist/hosts.txt
+  name: MalwareDomainList.com Hosts List
+  id: 4
+whitelist_filters: []
+user_rules:
+- ""
+dhcp:
+  enabled: false
+  interface_name: ""
+  gateway_ip: ""
+  subnet_mask: ""
+  range_start: ""
+  range_end: ""
+  lease_duration: 86400
+  icmp_timeout_msec: 1000
+clients: []
+log_compress: false
+log_localtime: false
+log_max_backups: 0
+log_max_size: 100
+log_max_age: 3
+log_file: ""
+verbose: false
+schema_version: 6
