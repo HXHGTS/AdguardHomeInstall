@@ -15,7 +15,7 @@ yum install -y wget && echo "151.101.108.133 raw.githubusercontent.com" > /etc/h
 
 ### 默认参数:
 
-网页后端管理：http://<服务器ip地址>
+网页后端管理：http://<服务器ip地址>:8080
 
 用户名：root
 
@@ -23,10 +23,8 @@ yum install -y wget && echo "151.101.108.133 raw.githubusercontent.com" > /etc/h
 
 DNS地址：<服务器ip地址>:53
 
-上游DNS地址: 清华大学TUNA666 中科大LUG
-
 ### 卸载:
 ```
-wget https://github.com/HXHGTS/AdguardHomeInstall/raw/master/uninstall.sh -O uninstall.sh && sudo bash uninstall.sh
+wget https://github.com/HXHGTS/AdguardHomeInstall/raw/master/uninstall.sh -O uninstall.sh && bash uninstall.sh
 ```
 
