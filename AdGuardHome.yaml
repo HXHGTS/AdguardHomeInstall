@@ -1,5 +1,5 @@
 bind_host: 0.0.0.0
-bind_port: 80
+bind_port: 8080
 users:
 - name: root
   password: $2a$10$C6sJN0Fr/BzEKy1.xmbIzOe2lbuVdj9EjlO5c83PpT7bxdxjAJ/Ca
@@ -28,11 +28,11 @@ dns:
   ratelimit_whitelist: []
   refuse_any: true
   upstream_dns:
-  - 101.6.6.6:5353
-  - 202.141.162.123:5353
+  - 8.8.8.8
+  - 8.8.4.4
   bootstrap_dns:
-  - 119.29.29.29
-  - 182.254.116.116
+  - 8.8.8.8
+  - 8.8.4.4
   all_servers: false
   fastest_addr: false
   allowed_clients: []
