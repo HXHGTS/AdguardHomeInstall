@@ -72,14 +72,6 @@ filters:
   url: https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
   name: AdGuard DNS filter
   id: 1
-- enabled: false
-  url: https://github.com/AdAway/adaway.github.io/blob/master/hosts.txt
-  name: AdAway
-  id: 2
-- enabled: false
-  url: https://www.malwaredomainlist.com/hostslist/hosts.txt
-  name: MalwareDomainList.com Hosts List
-  id: 4
 whitelist_filters: []
 user_rules: []
 dhcp:
