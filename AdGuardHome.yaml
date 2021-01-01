@@ -2,7 +2,7 @@ bind_host: 0.0.0.0
 bind_port: 8080
 users:
 - name: root
-  password: $2a$10$C6sJN0Fr/BzEKy1.xmbIzOe2lbuVdj9EjlO5c83PpT7bxdxjAJ/Ca
+  password: $2a$10$O/5qFneGlfNDxotyn9mPT.AdJnHU57T/2HCjB64EebnQReff.zNqK
 http_proxy: ""
 language: ""
 rlimit_nofile: 0
@@ -28,11 +28,10 @@ dns:
   ratelimit_whitelist: []
   refuse_any: true
   upstream_dns:
-  - 8.8.8.8
-  - 8.8.4.4
+  - tls://dns.google
   bootstrap_dns:
-  - 8.8.8.8
-  - 8.8.4.4
+  - 119.29.29.29
+  - 119.28.28.28
   all_servers: false
   fastest_addr: false
   allowed_clients: []
@@ -42,7 +41,7 @@ dns:
   cache_ttl_min: 0
   cache_ttl_max: 0
   bogus_nxdomain: []
-  aaaa_disabled: true
+  aaaa_disabled: false
   enable_dnssec: false
   edns_client_subnet: true
   filtering_enabled: true
