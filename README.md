@@ -14,15 +14,15 @@ yum install -y wget && echo "151.101.112.133 raw.githubusercontent.com" > /etc/h
 ```
 
 ### 默认参数:
-
+```
 网页后端管理：http://<服务器ip地址>:81
 
 用户名：root
 
-密码：root
+密码：0269df5e-8a1e-4d8b-b2f0-572bedbb8271
 
 DNS地址：<服务器ip地址>:9953
-
+```
 ### 卸载:
 ```
 wget https://github.com/HXHGTS/AdguardHomeInstall/raw/master/uninstall.sh -O uninstall.sh && bash uninstall.sh
