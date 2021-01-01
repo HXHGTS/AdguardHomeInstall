@@ -15,13 +15,13 @@ yum install -y wget && echo "151.101.112.133 raw.githubusercontent.com" > /etc/h
 
 ### 默认参数:
 
-网页后端管理：http://<服务器ip地址>:8080
+网页后端管理：http://<服务器ip地址>:81
 
 用户名：root
 
 密码：root
 
-DNS地址：<服务器ip地址>:53
+DNS地址：<服务器ip地址>:9953
 
 ### 卸载:
 ```
