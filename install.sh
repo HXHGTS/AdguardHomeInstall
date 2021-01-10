@@ -24,6 +24,8 @@ wget https://github.com/HXHGTS/AdguardHomeInstall/raw/master/AdGuardHome.yaml -O
 
 systemctl restart AdGuardHome
 
+yum install -y bind-utils
+
 clear
 
 echo "DNS服务器已安装！"
