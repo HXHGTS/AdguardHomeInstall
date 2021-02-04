@@ -20,7 +20,7 @@ cd /root/AdGuardHome && rm -rf LICENSE.txt && rm -rf README.md && ./AdGuardHome 
 
 echo "正在下载AdGuardHome配置文件. . ."
 
-wget https://github.com/HXHGTS/AdguardHomeInstall/raw/master/AdGuardHome.yaml -O /root/AdGuardHome/AdGuardHome.yaml
+wget https://cdn.jsdelivr.net/gh/HXHGTS/AdguardHomeInstall/AdGuardHome.yaml -O /root/AdGuardHome/AdGuardHome.yaml
 
 systemctl restart AdGuardHome
 
