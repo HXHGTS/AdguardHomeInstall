@@ -10,7 +10,7 @@
 
 ### 一句话执行安装:
 ```
-yum install -y wget && echo "151.101.112.133 raw.githubusercontent.com" > /etc/hosts && wget https://github.com/HXHGTS/AdguardHomeInstall/raw/master/install.sh -O install.sh && bash install.sh
+yum install -y wget && wget https://cdn.jsdelivr.net/gh/HXHGTS/AdguardHomeInstall/install.sh -O install.sh && bash install.sh
 ```
 
 ### 默认参数:
@@ -25,6 +25,6 @@ DNS地址：<服务器ip地址>:9953
 ```
 ### 卸载:
 ```
-wget https://github.com/HXHGTS/AdguardHomeInstall/raw/master/uninstall.sh -O uninstall.sh && bash uninstall.sh
+wget https://cdn.jsdelivr.net/gh/HXHGTS/AdguardHomeInstall/uninstall.sh -O uninstall.sh && bash uninstall.sh
 ```
 
