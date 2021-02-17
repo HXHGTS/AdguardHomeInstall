@@ -26,6 +26,14 @@ tar -zvxf AdGuardHome_linux_amd64.tar.gz
 
 rm -f /opt/AdGuardHome_linux_amd64.tar.gz
 
+rm -f /opt/AdGuardHome/README.md
+
+rm -f /opt/AdGuardHome/CHANGELOG.md
+
+rm -f /opt/AdGuardHome/LICENSE.txt
+
+rm -f /opt/AdGuardHome/AdGuardHome.sig
+
 systemctl start AdGuardHome && systemctl enable AdGuardhome
 
 clear
