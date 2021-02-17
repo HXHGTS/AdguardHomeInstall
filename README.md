@@ -1,6 +1,6 @@
 # AdguardHomeInstall
 
-在CentOS 7操作系统上搭建dns服务器
+在CentOS 7/8操作系统上搭建dns服务器
 
 若要在Windows上搭建，请使用DNSForMe直接配置！
 
