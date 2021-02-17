@@ -1,6 +1,6 @@
 #!/bin/sh
 
-systemctl stop AdGuardhome && systemctl disable AdGuardhome
+systemctl stop AdGuardHome && systemctl disable AdGuardHome
 
 cp -f /opt/AdGuardHome/AdGuardHome.yaml /root/AdGuardHome.yaml
 
@@ -30,7 +30,7 @@ cp -f /root/AdGuardHome.yaml /opt/AdGuardHome/AdGuardHome.yaml
 
 rm -f /root/AdGuardHome.yaml
 
-systemctl start AdGuardHome && systemctl enable AdGuardhome
+systemctl start AdGuardHome && systemctl enable AdGuardHome
 
 clear
 
