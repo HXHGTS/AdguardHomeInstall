@@ -2,17 +2,9 @@
 
 systemctl stop AdGuardhome && systemctl disable AdGuardhome
 
-rm -f /opt/AdGuardHome/README.md
+cp -f /opt/AdGuardHome/AdGuardHome.yaml /root/AdGuardHome.yaml
 
-rm -f /opt/AdGuardHome/CHANGELOG.md
-
-rm -f /opt/AdGuardHome/LICENSE.txt
-
-rm -f /opt/AdGuardHome/AdGuardHome
-
-rm -f /opt/AdGuardHome/AdGuardHome.sig
-
-rm -rf /opt/AdGuardHome/agh-backup
+rm -rf /opt/AdGuardHome/
 
 clear
 
@@ -33,6 +25,10 @@ rm -f /opt/AdGuardHome/CHANGELOG.md
 rm -f /opt/AdGuardHome/LICENSE.txt
 
 rm -f /opt/AdGuardHome/AdGuardHome.sig
+
+cp -f /root/AdGuardHome.yaml /opt/AdGuardHome/AdGuardHome.yaml
+
+rm -f /root/AdGuardHome.yaml
 
 systemctl start AdGuardHome && systemctl enable AdGuardhome
 
