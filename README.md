@@ -4,7 +4,7 @@
 
 ### 安装:
 ```
-yum install -y wget && wget https://cdn.jsdelivr.net/gh/AdguardTeam/AdGuardHome/scripts/install.sh -O install.sh && bash install.sh
+yum install -y wget && wget https://cdn.jsdelivr.net/gh/AdguardTeam/AdGuardHome@latest/scripts/install.sh -O install.sh && bash install.sh
 ```
 ### 升级:
 ```
