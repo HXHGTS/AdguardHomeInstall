@@ -6,6 +6,6 @@ systemctl stop AdGuardHome.service
 
 systemctl disable AdGuardHome.service 
 
-rm -rf /root/AdGuardHome
+rm -rf /opt/AdGuardHome
 
 echo "卸载完成!"
