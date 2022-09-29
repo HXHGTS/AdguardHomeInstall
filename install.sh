@@ -12,6 +12,8 @@ wget https://github.com/AdguardTeam/AdGuardHome/releases/latest/download/AdGuard
 
 echo "正在安装AdGuardHome DNS服务器. . ."
 
+cd /opt
+
 tar -zvxf AdGuardHome_linux_amd64.tar.gz
 
 rm -rf AdGuardHome_linux_amd64.tar.gz
