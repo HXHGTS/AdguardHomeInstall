@@ -4,7 +4,7 @@
 
 ### 安装:
 ```
-yum install -y curl && curl -sSL https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/scripts/install.sh | bash
+yum install -y curl && curl -sSL https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/scripts/install.sh | bash
 ```
 ### 升级:
 ```
