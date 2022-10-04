@@ -4,14 +4,14 @@
 
 ### 安装:
 ```
-yum install -y curl && curl -sSL https://cdn.jsdelivr.net/gh/AdguardTeam/AdGuardHome@latest/scripts/install.sh | bash
+yum install -y curl && curl -sSL https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/scripts/install.sh | bash
 ```
 ### 升级:
 ```
-curl -sSL https://cdn.jsdelivr.net/gh/HXHGTS/AdguardHomeInstall/update.sh | bash
+curl -sSL https://raw.githubusercontent.com/HXHGTS/AdguardHomeInstall/master/update.sh | bash
 ```
 ### 卸载:
 ```
-curl -sSL https://cdn.jsdelivr.net/gh/HXHGTS/AdguardHomeInstall/uninstall.sh | bash
+curl -sSL https://raw.githubusercontent.com/HXHGTS/AdguardHomeInstall/master/uninstall.sh | bash
 ```
 
