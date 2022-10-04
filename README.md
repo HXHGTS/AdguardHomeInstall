@@ -8,10 +8,10 @@ yum install -y curl && curl -sSL https://cdn.jsdelivr.net/gh/AdguardTeam/AdGuard
 ```
 ### 升级:
 ```
-wget https://cdn.jsdelivr.net/gh/HXHGTS/AdguardHomeInstall/update.sh -O update.sh && bash update.sh
+curl -sSL https://cdn.jsdelivr.net/gh/HXHGTS/AdguardHomeInstall/update.sh | bash
 ```
 ### 卸载:
 ```
-wget https://cdn.jsdelivr.net/gh/HXHGTS/AdguardHomeInstall/uninstall.sh -O uninstall.sh && bash uninstall.sh
+curl -sSL https://cdn.jsdelivr.net/gh/HXHGTS/AdguardHomeInstall/uninstall.sh | bash
 ```
 
