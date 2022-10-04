@@ -1,6 +1,6 @@
 #!/bin/sh
 
-systemctl stop AdGuardhome && systemctl disable AdGuardhome
+systemctl stop AdGuardHome && systemctl disable AdGuardHome
 
 rm -rf /opt/AdGuardHome
 
