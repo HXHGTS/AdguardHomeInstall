@@ -1,12 +1,14 @@
 #!/bin/sh
 
-systemctl stop AdGuardHome && systemctl disable AdGuardHome
+echo "正在停止AdGuardHome DNS服务器. . ."
 
-cp -f /opt/AdGuardHome/AdGuardHome.yaml /root/AdGuardHome.yaml
+systemctl stop AdGuardHome
+
+systemctl disable AdGuardHome
+
+mv -f /opt/AdGuardHome/AdGuardHome.yaml /root/AdGuardHome.yaml
 
 rm -rf /opt/AdGuardHome/
-
-clear
 
 echo "正在下载AdGuardHome DNS服务器. . ."
 
@@ -18,17 +20,7 @@ cd /opt && tar -zvxf AdGuardHome_linux_amd64.tar.gz
 
 rm -f /opt/AdGuardHome_linux_amd64.tar.gz
 
-rm -f /opt/AdGuardHome/README.md
-
-rm -f /opt/AdGuardHome/CHANGELOG.md
-
-rm -f /opt/AdGuardHome/LICENSE.txt
-
-rm -f /opt/AdGuardHome/AdGuardHome.sig
-
-cp -f /root/AdGuardHome.yaml /opt/AdGuardHome/AdGuardHome.yaml
-
-rm -f /root/AdGuardHome.yaml
+mv -f /root/AdGuardHome.yaml /opt/AdGuardHome/AdGuardHome.yaml
 
 systemctl start AdGuardHome && systemctl enable AdGuardHome
 
