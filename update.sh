@@ -6,7 +6,7 @@ systemctl stop AdGuardHome
 
 systemctl disable AdGuardHome
 
-mv -f /opt/AdGuardHome/AdGuardHome.yaml /root/AdGuardHome.yaml
+mv -f /opt/AdGuardHome/AdGuardHome.yaml /opt/AdGuardHome.yaml
 
 rm -rf /opt/AdGuardHome/
 
@@ -20,9 +20,11 @@ cd /opt && tar -zvxf AdGuardHome_linux_amd64.tar.gz
 
 rm -f /opt/AdGuardHome_linux_amd64.tar.gz
 
-mv -f /root/AdGuardHome.yaml /opt/AdGuardHome/AdGuardHome.yaml
+mv -f /opt/AdGuardHome.yaml /opt/AdGuardHome/AdGuardHome.yaml
 
-systemctl start AdGuardHome && systemctl enable AdGuardHome
+systemctl start AdGuardHome
+
+systemctl enable AdGuardHome
 
 clear
 
