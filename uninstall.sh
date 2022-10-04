@@ -2,9 +2,9 @@
 
 echo "正在卸载. . ."
 
-systemctl stop AdGuardHome.service 
+systemctl stop AdGuardHome
 
-systemctl disable AdGuardHome.service 
+systemctl disable AdGuardHome
 
 rm -rf /opt/AdGuardHome
 
