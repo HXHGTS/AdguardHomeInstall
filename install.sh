@@ -1,10 +1,10 @@
 #!/bin/sh
 
-systemctl stop AdGuardHome && systemctl disable AdGuardHome
+echo "正在关闭AdGuardHome DNS服务器. . ."
 
-rm -rf /opt/AdGuardHome
+systemctl stop AdGuardHome 
 
-clear
+systemctl disable AdGuardHome
 
 echo "正在下载AdGuardHome DNS服务器. . ."
 
@@ -18,13 +18,7 @@ tar -zvxf AdGuardHome_linux_amd64.tar.gz
 
 rm -rf AdGuardHome_linux_amd64.tar.gz
 
-cd /opt/AdGuardHome && rm -rf LICENSE.txt && rm -rf README.md && ./AdGuardHome -s install
-
-echo "正在下载AdGuardHome配置文件. . ."
-
-wget https://raw.githubusercontent.com/HXHGTS/AdguardHomeInstall/master/AdGuardHome.yaml -O /opt/AdGuardHome/AdGuardHome.yaml
-
-systemctl restart AdGuardHome
+cd /opt/AdGuardHome && ./AdGuardHome -s install
 
 yum install -y bind-utils
 
