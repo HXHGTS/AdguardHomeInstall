@@ -1,10 +1,12 @@
 #!/bin/sh
 
-echo "正在关闭AdGuardHome DNS服务器. . ."
+echo "正在关闭并卸载AdGuardHome DNS服务器. . ."
 
 systemctl stop AdGuardHome 
 
 systemctl disable AdGuardHome
+
+rm -rf /opt/AdGuardHome
 
 echo "正在下载AdGuardHome DNS服务器. . ."
 
