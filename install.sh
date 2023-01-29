@@ -20,7 +20,7 @@ rm -rf AdGuardHome_linux_amd64.tar.gz
 
 cd /opt/AdGuardHome && ./AdGuardHome -s install
 
-yum install -y bind-utils
+apt install -y dnsutils
 
 clear
 
