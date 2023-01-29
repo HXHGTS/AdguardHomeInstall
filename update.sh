@@ -8,6 +8,8 @@ systemctl disable AdGuardHome
 
 rm -f /opt/AdGuardHome/AdGuardHome
 
+rm -rf /opt/AdGuardHome/agh-backup
+
 echo "正在下载最新版本AdGuardHome DNS服务器. . ."
 
 wget https://github.com/AdguardTeam/AdGuardHome/releases/latest/download/AdGuardHome_linux_amd64.tar.gz -O /opt/AdGuardHome_linux_amd64.tar.gz
