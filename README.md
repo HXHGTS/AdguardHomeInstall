@@ -4,7 +4,9 @@
 
 ### 安装:
 ```
-apt update && apt install -y curl && curl -sSL https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/scripts/install.sh | bash
+apt update
+apt install -y curl
+curl -sSL https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/scripts/install.sh | bash
 ```
 ### 升级:
 ```
